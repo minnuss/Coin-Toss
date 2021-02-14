@@ -33,6 +33,10 @@ body {
     margin-bottom: 20px;
 }
 
+.btns {
+    text-align: center;
+}
+
 .btn {
     font-size: 2rem;
     width: 150px;
@@ -42,7 +46,6 @@ body {
     color: cornsilk;
     outline: none;
     transition: background-color 0.3s ease-in-out, transform 0.3 ease-in-out;
-
 }
 
 .btn:active {
@@ -51,4 +54,24 @@ body {
 
 .btn:hover {
     background-color: darkslateblue;
+}
+
+@media (max-width: 1020px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    .message {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .winnermsg {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 1.2rem;
+        width: 120px;
+    }
 }
