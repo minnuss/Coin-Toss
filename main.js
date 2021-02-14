@@ -30,7 +30,7 @@ function tossCoin(e) {
         winnermsg.textContent = `Computer wins`;
         winnermsg.style.color = 'red';
     }
-    points.textContent = `Player Points: ${Pcount}  |  Computer Points: ${Ccount}`;
+    points.innerHTML = `Player Points:` + Pcount + '<br>' + `Computer Points:` + Ccount;
     playerSelect.textContent = `Player selected: ${playerClick}`;
     compSelected.textContent = `Computer selected: ${compToss}`;
 }
