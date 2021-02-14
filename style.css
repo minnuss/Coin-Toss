@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+    min-height: 300px;
+}
+
+.mainDiv div {
+    margin-bottom: 10px;
+}
+
+.message {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.winnermsg {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.points {
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: purple;
+    color: cornsilk;
+    outline: none;
+    transition: background-color 0.3s ease-in-out, transform 0.3 ease-in-out;
+
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.btn:hover {
+    background-color: darkslateblue;
+}
